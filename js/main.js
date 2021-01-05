@@ -119,9 +119,8 @@ $(document).ready(function () {
   });
 
   var effects = [
-    // './effects/background_segmentation',
-    // './effects/naruto',
     './effects/eye_color_final_mask',
+    './effects/background_segmentation',
     './effects/aviators',
     './effects/beard',
     './effects/dalmatian',
