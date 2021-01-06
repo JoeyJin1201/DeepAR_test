@@ -37,10 +37,10 @@ body {
 
 @-webkit-keyframes sk-scaleout {
   0% {
-    -webkit-transform: scale(0);
+    -webkit-transform: scale(0)
   }
   100% {
-    -webkit-transform: scale(1);
+    -webkit-transform: scale(1.0);
     opacity: 0;
   }
 }
@@ -51,8 +51,8 @@ body {
     transform: scale(0);
   }
   100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
     opacity: 0;
   }
 }
@@ -73,7 +73,6 @@ body {
   margin-left: auto;
   position: relative;
   opacity: 0.8;
-  -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   height: 100px;
 }
@@ -91,4 +90,3 @@ body {
 .slick-slide {
   width: 130px;
 }
-/*# sourceMappingURL=style.css.map */
