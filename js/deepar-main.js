@@ -20,7 +20,7 @@ var deepAR = DeepAR({
 
     // or we can setup the video element externally and call deepAR.setVideoElement (see startExternalVideo function below)
 
-    deepAR.switchEffect(0, 'slot', './effects/eye_color_final_mask', function () {
+    deepAR.switchEffect(0, 'slot', './effects/background_segmentation', function () {
       // effect loaded
     });
   }
@@ -119,7 +119,7 @@ $(document).ready(function () {
   });
 
   var effects = [
-    './effects/eye_color_final_mask',
+    // './effects/eye_color_final_mask',
     './effects/background_segmentation',
     './effects/aviators',
     './effects/beard',
@@ -128,8 +128,8 @@ $(document).ready(function () {
     './effects/koala',
     './effects/lion',
     './effects/teddycigar',
-    './effects/glasses-test',
-    './effects/hair_color_effect',
+    // './effects/glasses-test',
+    // './effects/hair_color_effect',
   ];
 
   $('.effect-carousel').on('afterChange', function (event, slick, currentSlide) {
