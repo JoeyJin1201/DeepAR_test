@@ -20,7 +20,7 @@ var deepAR = DeepAR({
 
     // or we can setup the video element externally and call deepAR.setVideoElement (see startExternalVideo function below)
 
-    deepAR.switchEffect(0, 'slot', './effects/background_segmentation', function () {
+    deepAR.switchEffect(0, 'slot', './effects/mask', function () {
       // effect loaded
     });
   }
@@ -119,7 +119,7 @@ $(document).ready(function () {
   });
 
   var effects = [
-    // './effects/eye_color_final_mask',
+    './effects/mask',
     './effects/background_segmentation',
     './effects/aviators',
     './effects/beard',
