@@ -120,6 +120,8 @@ $(document).ready(function () {
 
   var effects = [
     './effects/mask',
+    './effects/eye_color_final_mask',
+    './effects/eye_color_final_mask2',
     './effects/background_segmentation',
     './effects/aviators',
     './effects/beard',
@@ -128,6 +130,7 @@ $(document).ready(function () {
     './effectsTest/koala',
     './effectsTest/lion',
     './effects/teddycigar',
+    './effects/hair_color_effect',
   ];
 
   $('.effect-carousel').on('afterChange', function (event, slick, currentSlide) {
