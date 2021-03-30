@@ -128,7 +128,7 @@ $(document).ready(function () {
     './effectsTest/koala',
     './effectsTest/lion',
     './effects/teddycigar',
-    './effects/rightEye',
+    './effects/Eye',
   ];
 
   $('.effect-carousel').on('afterChange', function (event, slick, currentSlide) {
