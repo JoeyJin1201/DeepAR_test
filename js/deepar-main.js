@@ -125,7 +125,7 @@ $(document).ready(function () {
     './effects/beard',
     './effects/dalmatian',
     './effects/flowers',
-    './effectsTest/koala',
+    'https://fitglasses-model.s3-us-west-2.amazonaws.com/koala',
     './effectsTest/lion',
     './effects/teddycigar',
     './effects/Eye',
