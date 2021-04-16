@@ -126,7 +126,8 @@ $(document).ready(function () {
     './effects/dalmatian',
     './effects/flowers',
     'https://fitglasses-model.s3-us-west-2.amazonaws.com/koala',
-    './effectsTest/lion',
+    'https://fitglasses-model.s3-us-west-2.amazonaws.com/Dockerfile',
+    // './effectsTest/lion',
     './effects/teddycigar',
     './effects/Eye',
   ];
